@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Deivi Yoani Mejia Pineda">
+  <meta name="description"
+    content="Desarrollador Full Stack con experiencia en la creación de aplicaciones web escalables y eficientes. Me especializo tanto en backend como en frontend, con un enfoque en soluciones optimizadas y de alto rendimiento. Mi objetivo es transformar ideas en productos digitales funcionales y de calidad.">
+  <meta name="keywords"
+    content="Deivi-Yoani-Mejia-pienda, developer-full-stack, javascript,developer-front-end, backend-developer">
+  <title>Portfolio Deivi Mejia</title>
+  <link rel="shortcut icon" href="assets/img/my icon.png" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "NTK5-c5hffAHwrReJ",
+      });
+    })();
+  </script>
+</head>
+
+<body>
+  <div class="loader flex--container">
+    <img class="loader__logo" src="assets/img/my icon.png">
+  </div>
+  <header class="header">
+    <nav class="navbar grid--container flex--container">
+      <a class="navbar__logo flex--container" href="#"><img class="logo bx bxs-registered" src="assets/img/my icon.png">
+        Deivi Yoani
+        Mejia
+        Pineda</a>
+      <div id="nav" class="navbar__menu">
+        <a href="#close"><i class="bx bx-x btn__close navbar__icon flex--container"></i></a>
+
+
+        <ul class="navbar__list flex--container">
+          <li class="navbar__item">
+            <a class="navbar__link active" href="#home">Inicio</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#about">Acerca de Mí</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#skills">Habilidades</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#projects">Portafolio</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar__toggles flex--container">
+        <div class="navbar__toggle--darkmode flex--container">
+          <input type="checkbox" name="color-scheme" id="darkmode-toggle" class="navbar__toggle--darkmode-input">
+          <label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
+            <i class='bx bx-sun navbar__toggle--darkmode-sun'></i>
+            <i class='bx bx-moon  navbar__toggle--darkmode-moon'></i>
+          </label>
+        </div>
+        <div class="navbar__toggle--language flex--container">
+          <input type="checkbox" name="language-toggle" id="language-toggle"
+            class="navbar__toggle--language-input check">
+          <label for="language-toggle" class="navbar__toggle--language-label" checked></label>
+        </div>
+      </div>
+      <a href="#nav"><i class='bx bx-menu btn__open navbar__icon'> </i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home">
+      <i class="bx bxl-html5 home__layer home__layer--1" data-speed="-5"></i>
+      <i class="bx bxl-javascript home__layer home__layer--2" data-speed="5"></i>
+      <i class="bx bxl-css3 home__layer home__layer--3" data-speed="2"></i>
+      <i class="bx bxl-nodejs home__layer home__layer--4" data-speed="6"></i>
+      <i class="bx bxl-react home__layer home__layer--5" data-speed="8"></i>
+      <i class="bx bxl-tailwind-css home__layer home__layer--6" data-speed="-2"></i>
+      <i class="bx bxl-redux home__layer home__layer--7" data-speed="4"></i>
+      <i class="bx bxl-typescript home__layer home__layer--8" data-speed="-2"></i>
+      <i class="bx bxl-git home__layer home__layer--9" data-speed="6"></i>
+      <i class="bx bxl-graphql home__layer home__layer--10" data-speed="-7"></i>
+      <i class="bx bx-code-alt home__layer home__layer--11" data-speed="-5"></i>
+      <div class="home__container grid--container">
+        <div class="home__image">
+          <img src="assets/img/Picture-perfil.png" alt="profile photo"
+            title="Foto de perfil de Deivi Yoani Mejia Pineda">
+        </div>
+        <ul class="home__social flex--container">
+          <li class="home__social-item">
+            <a class="home__social-link"
+              href="https://www.linkedin.com/in/deivi-yoani-mejia-pineda-708730332?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEvBNZRKvSSia6jfmE2qduQ%3D%3D"
+              target="_blank"><i class="bx bxl-linkedin"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="whatsapp://send?phone=+573167571905" target="_blank"><i
+                class="bx bxl-whatsapp"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://github.com/deivimejia" target="_blank"><i
+                class="bx bxl-github"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="mailto:deiviyoanimejiapineda@gmail.com?" target="_blank"><i
+                class="bx bx-envelope"></i></a>
+          </li>
+        </ul>
+        <div class="home__info">
+          <h1 class="home__title"> Saludos, soy Deivi Yoani</h1>
+          <p class="home__description">Soy desarrollador Full Stack con experiencia en la creación de aplicaciones web
+            escalables y eficientes. Me especializo tanto en backend como en frontend, con un enfoque en soluciones
+            optimizadas y de alto rendimiento. Mi objetivo es transformar ideas en productos digitales funcionales y de
+            calidad.
+          </p>
+        </div>
+        <div class="home__buttons">
+          <a class="btn btn--primary" href="assets/img/cv.jpg" title="Descargar mi CV" download="my_cv"
+            rel="noreferrer nofollow">
+            Descargar CV
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about section">
+      <h2 class="section__title">Acerca de mí</h2>
+      <div class="about__container grid--container">
+        <p class="about__description">
+          Soy Deivi Yoani Mejia Pineda, vivo en Santa Rosa de Cabal, Risaralda, Colombia, tengo 30 años y soy estudiante
+          de Ingeniería de Sistemas y Desarrollo Web. Soy un apasionado del aprendizaje enfocado en la programación y me
+          caracterizo por la disciplina, constancia y enfoque en la ejecución de tareas y objetivos personales. Estoy
+          decidido a seguir creciendo profesionalmente y aprovechar al máximo cada oportunidad de aprendizaje que se me
+          presente.
+        </p>
+        <div class="about__cards flex--container">
+          <!--Card 1 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/sport.jpg" alt="Deporte favorito" title="Deporte favorito" />
+          </div>
+          <!--Card 2 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/teamwork.png" alt="trabajo en equipo"
+              title="trabajo en equipo" />
+          </div>
+          <!--Card 3 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/desarrollador-web.jpg" alt="Set de trabajo"
+              title="Set de trabajo" />
+          </div>
+        </div>
+    </section>
+    <section id="skills" class="skills section">
+      <h2 class="section__title">Habilidades</h2>
+
+      <div class="skills__container grid--container">
+        <p class="skills__description flex--container">
+          Soy un apasionado del desarrollo web con experiencia en HTML, CSS, JavaScript y React. Estoy comprometido con
+          crear aplicaciones web interactivas y eficientes, y disfruto aprender y aplicar nuevas tecnologías en mis
+          proyectos.
+        </p>
+
+        <div class="skills__wrapper flex--container">
+          <div class="skills__cards flex--container">
+            <!--Card 1 -->
+            <details class="skills__cards-container" name="moreInfo" open>
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-html5 flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">HTML</h3>
+
+                <p class="skills__card-description">
+                  Tengo habilidades sólidas en HTML, lo que me permite estructurar contenido de manera semántica y
+                  accesible. Utilizo las mejores prácticas para garantizar que las páginas sean fácilmente entendibles
+                  por los motores de búsqueda y accesibles para todos los usuarios.
+                </p>
+              </div>
+            </details>
+            <!--Card 2 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-css3 flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">CSS</h3>
+
+                <p class="skills__card-description">
+                  En cuanto a CSS, soy capaz de diseñar interfaces atractivas y responsivas que mejoran la experiencia
+                  del usuario. Aplico técnicas modernas, como Flexbox y Grid, para crear diseños adaptables que
+                  funcionan en diversos dispositivos y resoluciones.
+                </p>
+              </div>
+            </details>
+            <!--Card 3 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-javascript flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">Javascript</h3>
+
+                <p class="skills__card-description">
+                  Mi experiencia en JavaScript me permite agregar interactividad a las páginas web, utilizando tanto la
+                  programación imperativa como la programación orientada a objetos. Estoy familiarizado con conceptos
+                  avanzados como el manejo de promesas, callbacks y funciones asíncronas.
+                </p>
+              </div>
+            </details>
+            <!--Card 4 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-react flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">React</h3>
+
+                <p class="skills__card-description">
+                  Con React, he desarrollado aplicaciones de una sola página (SPA) donde implemento componentes
+                  reutilizables y gestiono el estado de manera eficiente. Utilizo herramientas como React Router para la
+                  navegación y Redux para el manejo del estado en aplicaciones más complejas.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="skills__tags flex--container">
+          <h3 class="skills__tags-title">Habilidades Blandas</h3>
+          <div class="skills__tags-container flex--container">
+            <span class="skills__tag">Comunicación Efectiva</span>
+            <span class="skills__tag">Trabajo en equipo</span>
+            <span class="skills__tag">Resolución de Problemas</span>
+            <span class="skills__tag">Disciplinado</span>
+            <span class="skills__tag">Adaptabilidad</span>
+            <span class="skills__tag">Gestión del Tiempo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects section">
+      <h2 class="section__title">Proyectos</h2>
+      <div class="projects__container grid--container">
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/posicionamiento.png" alt="Project 1" title="Posicionamiento y apilamiento">
+            </div>
+            <div class="projects__info">
+              <h3 class="projects__name"> Proyecto 1</h3>
+              <p class="projects__description">
+                Ejercicio practico de posicionamiento y apilamiento
+              </p>
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  Ver DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  Ver Codigo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/reto-flexbox.gif" alt="Project 2" title="Reto Flexbox">
+            </div>
+            <div class="projects__info">
+              <h3 class="projects__name"> Proyecto 2</h3>
+              <p class="projects__description">
+                Ejercicio practico Flexbox.
+              </p>
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  Ver DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  Ver Codigo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact section">
+      <h2 class="section__title">Contacto</h2>
+      <div class="contact__container grid--container">
+        <div class="contact__info">
+          <h3 class=" contact__info-title">Información de contacto</h3>
+          <p class="contact__info-description">
+            Medios para contactarme.
+          </p>
+          <address class="contact__info-data">
+            <div class="contact__info-item">
+              <i class="bx bxl-whatsapp"></i>
+              <span class="contact__info-number">
+                <a class="contact__info__item-link" href="whatsapp://send?phone=+573167571905" target="_blank">Enviar
+                  mensaje via whatsapp</a>
+              </span>
+            </div>
+            <div class="contact__info-item">
+              <i class="bx bx-phone"></i>
+              <span class="contact__info-number">
+                <a class="contact__info__item-link" href="tel:+573167571905">Llamar ahora
+                </a>
+              </span>
+            </div>
+            <div class="contact__info-item">
+              <i class="bx bxs-envelope"></i>
+              <span class="contact__info-mail">
+                <a class="contact__info__item-link" id="mail"
+                  href="mailto:deiviyoanimejiapineda@gmail.com?subject=Hazme%20una%20pagina" target="_blank">
+                  Escribir a mi correo
+                </a>
+              </span>
+            </div>
+            <div class="contact__info-item">
+              <i class="bx bx-map"></i>
+              <span class="contact__info-map">
+                <a class="contact__info__item-link" id="map" href="https://maps.app.goo.gl/V3VcU39SreujxcaVA"
+                  target="_blank">Pereira, Colombia. </a>
+              </span>
+            </div>
+          </address>
+        </div>
+        <div class="contact__form">
+          <h3 class="contact__form-title">Enviar mensaje</h3>
+          <form id="form" class="contact__form-container">
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label">Nombre</label>
+              <input type="text" id="name" name="name" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="email" class="contact__form-label">Correo</label>
+              <input type="email" id="email" name="email" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="subject" class="contact__form-label">Asunto</label>
+              <input type="text" id="subject" name="subject" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label">Mensaje</label>
+              <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
+            </div>
+            <dialog id="modal">
+              Formulario enviado con éxito!
+              <button type="reset" id="btn_close-modal">Cerrar</button>
+            </dialog>
+
+            <button type="submit" class="btn contact__form-button">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">Deivi Yoani Mejia Pineda</h3>
+        <p class="footer__description">
+          Como desarrollador web comprometido, me enfoco en crear aplicaciones eficientes, centradas en la experiencia
+          del usuario y optimizadas para un rendimiento excelente. Valoro la calidad del código, el diseño intuitivo y
+          la colaboración constante, manteniéndome siempre al día con las últimas tecnologías para ofrecer soluciones
+          innovadoras.
+        </p>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Redes Sociales</h3>
+
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.facebook.com/deibiymp" target="_blank"
+              rel="noreferrer nofollow"><i class="bx bxl-facebook"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.instagram.com/deibimejia" target="_blank"
+              rel="noreferrer nofollow"><i class="bx bxl-instagram"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link"
+              href="https://www.linkedin.com/in/deivi-yoani-mejia-pineda-708730332?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEvBNZRKvSSia6jfmE2qduQ%3D%3D"" target="
+              _blank" rel="noreferrer nofollow"><i class="bx bxl-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer__copy"></p>
+  </footer>
+
+</body>
+
+</html>

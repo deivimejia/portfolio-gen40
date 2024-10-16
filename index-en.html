@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Deivi Yoani Mejia Pineda">
+  <meta name="description"
+    content="Full Stack Developer with experience in creating scalable and efficient web applications. I specialize in both backend and frontend development, focusing on optimized and high-performance solutions. My goal is to transform ideas into functional and high-quality digital products.">
+  <meta name="keywords"
+    content="Deivi-Yoani-Mejia-pienda, developer-full-stack, javascript,developer-front-end, backend-developer">
+  <title>Portfolio Deivi Mejia</title>
+  <link rel="shortcut icon" href="assets/img/my icon.png" type="image/x-icon">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="module" src="assets/js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "NTK5-c5hffAHwrReJ",
+      });
+    })();
+  </script>
+</head>
+
+<body>
+  <div class="loader flex--container">
+    <img class="loader__logo" src="assets/img/my icon.png">
+  </div>
+  <header class="header">
+    <nav class="navbar grid--container flex--container">
+      <a class="navbar__logo flex--container" href="#"><img class="logo bx bxs-registered" src="assets/img/my icon.png">
+        Deivi Yoani
+        Mejia
+        Pineda</a>
+      <div id="nav" class="navbar__menu">
+        <a href="#close"><i class="bx bx-x btn__close navbar__icon flex--container"></i></a>
+
+
+        <ul class="navbar__list flex--container">
+          <li class="navbar__item">
+            <a class="navbar__link active" href="#home">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#about">About me</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#skills">
+              Skills</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#projects">Portfolio</a>
+          </li>
+          <li class="navbar__item">
+            <a class="navbar__link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <div class="navbar__toggles flex--container">
+        <div class="navbar__toggle--darkmode flex--container">
+          <input type="checkbox" name="color-scheme" id="darkmode-toggle" class="navbar__toggle--darkmode-input">
+          <label for="darkmode-toggle" class="navbar__toggle--darkmode-label">
+            <i class='bx bx-sun navbar__toggle--darkmode-sun'></i>
+            <i class='bx bx-moon  navbar__toggle--darkmode-moon'></i>
+          </label>
+        </div>
+        <div class="navbar__toggle--language flex--container">
+          <input type="checkbox" name="language-toggle" id="language-toggle"
+            class="navbar__toggle--language-input check">
+          <label for="language-toggle" class="navbar__toggle--language-label" checked></label>
+        </div>
+      </div>
+      <a href="#nav"><i class='bx bx-menu btn__open navbar__icon'> </i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="home">
+      <i class="bx bxl-html5 home__layer home__layer--1" data-speed="-5"></i>
+      <i class="bx bxl-javascript home__layer home__layer--2" data-speed="5"></i>
+      <i class="bx bxl-css3 home__layer home__layer--3" data-speed="2"></i>
+      <i class="bx bxl-nodejs home__layer home__layer--4" data-speed="6"></i>
+      <i class="bx bxl-react home__layer home__layer--5" data-speed="8"></i>
+      <i class="bx bxl-tailwind-css home__layer home__layer--6" data-speed="-2"></i>
+      <i class="bx bxl-redux home__layer home__layer--7" data-speed="4"></i>
+      <i class="bx bxl-typescript home__layer home__layer--8" data-speed="-2"></i>
+      <i class="bx bxl-git home__layer home__layer--9" data-speed="6"></i>
+      <i class="bx bxl-graphql home__layer home__layer--10" data-speed="-7"></i>
+      <i class="bx bx-code-alt home__layer home__layer--11" data-speed="-5"></i>
+      <div class="home__container grid--container">
+        <div class="home__image">
+          <img src="assets/img/Picture-perfil.png" alt="profile photo"
+            title="Profile photo of Deivi Yoani Mejia Pineda">
+        </div>
+        <ul class="home__social flex--container">
+          <li class="home__social-item">
+            <a class="home__social-link"
+              href="https://www.linkedin.com/in/deivi-yoani-mejia-pineda-708730332?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEvBNZRKvSSia6jfmE2qduQ%3D%3D"
+              target="_blank"><i class="bx bxl-linkedin"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="whatsapp://send?phone=+573167571905" target="_blank"><i
+                class="bx bxl-whatsapp"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="https://github.com/deivimejia" target="_blank"><i
+                class="bx bxl-github"></i></a>
+          </li>
+          <li class="home__social-item">
+            <a class="home__social-link" href="mailto:deiviyoanimejiapineda@gmail.com?" target="_blank"><i
+                class="bx bx-envelope"></i></a>
+          </li>
+        </ul>
+        <div class="home__info">
+          <h1 class="home__title"> Greetings, I'm Deivi Yoani</h1>
+          <p class="home__description">I am a Full Stack developer with experience creating web applications.
+            scalable and efficient. I specialize in both backend and frontend, with a focus on solutions
+            optimized and high performance. My goal is to transform ideas into functional and high-quality digital
+            products.
+            quality.
+          </p>
+        </div>
+        <div class="home__buttons">
+          <a class="btn btn--primary" href="assets/img/cv.jpg" title="Descargar mi CV" download="my_cv"
+            rel="noreferrer nofollow">
+            Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about section">
+      <h2 class="section__title">About me</h2>
+      <div class="about__container grid--container">
+        <p class="about__description">
+          I am Deivi Yoani Mejia Pineda, I live in Santa Rosa de Cabal, Risaralda, Colombia, I am 30 years old and I am
+          a student
+          of Systems Engineering and Web Development. I am passionate about learning focused on programming and I
+          I am characterized by discipline, perseverance and focus on the execution of tasks and personal objectives.
+          I'm
+          determined to continue growing professionally and make the most of every learning opportunity that comes my
+          way.
+          present.
+        </p>
+        <div class="about__cards flex--container">
+          <!--Card 1 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/sport.jpg" alt="
+            Favorite sport " title="
+            Favorite sport" />
+          </div>
+          <!--Card 2 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/teamwork.png" alt="teamwork" title="teamwork" />
+          </div>
+          <!--Card 3 -->
+          <div class="about__card">
+            <img class="about__card--img" src="assets/img/desarrollador-web.jpg" alt="
+            Work set" title="
+              Work set" />
+          </div>
+        </div>
+    </section>
+    <section id="skills" class="skills section">
+      <h2 class="section__title">Skills</h2>
+
+      <div class="skills__container grid--container">
+        <p class="skills__description flex--container">
+          I am passionate about web development with experience in HTML, CSS, JavaScript and React. I am committed to
+          create interactive and efficient web applications, and I enjoy learning and applying new technologies in my
+          projects.
+        </p>
+
+        <div class="skills__wrapper flex--container">
+          <div class="skills__cards flex--container">
+            <!--Card 1 -->
+            <details class="skills__cards-container" name="moreInfo" open>
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-html5 flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">HTML</h3>
+
+                <p class="skills__card-description">
+                  I have strong HTML skills, allowing me to structure content semantically and
+                  accessible. I use best practices to ensure pages are easily understandable
+                  by search engines and accessible to all users.
+                </p>
+              </div>
+            </details>
+            <!--Card 2 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-css3 flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">CSS</h3>
+
+                <p class="skills__card-description">
+                  Regarding CSS, I am able to design attractive and responsive interfaces that improve the experience
+                  of the user. I apply modern techniques, such as Flexbox and Grid, to create responsive layouts that
+                  They work on various devices and resolutions.
+                </p>
+              </div>
+            </details>
+            <!--Card 3 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-javascript flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">Javascript</h3>
+
+                <p class="skills__card-description">
+                  My experience in JavaScript allows me to add interactivity to web pages, using both the
+                  imperative programming such as object-oriented programming. I am familiar with concepts
+                  advanced such as handling promises, callbacks and asynchronous functions.
+                </p>
+              </div>
+            </details>
+            <!--Card 4 -->
+            <details class="skills__cards-container" name="moreInfo">
+              <summary class="skills__cards-title flex--container">
+                <i class="bx bxl-react flex--container"></i>
+              </summary>
+              <div class="skills__card-container">
+                <h3 class="skills__card-title">React</h3>
+
+                <p class="skills__card-description">
+                  With React, I have developed single page applications (SPA) where I implement components
+                  reusable and manage the state efficiently. I use tools like React Router for
+                  navigation and Redux for state management in more complex applications.
+                </p>
+              </div>
+            </details>
+          </div>
+        </div>
+        <div class="skills__tags flex--container">
+          <h3 class="skills__tags-title">Soft Skills</h3>
+          <div class="skills__tags-container flex--container">
+            <span class="skills__tag">Effective Communication</span>
+            <span class="skills__tag">Teamwork</span>
+            <span class="skills__tag">Troubleshooting</span>
+            <span class="skills__tag">Disciplined</span>
+            <span class="skills__tag">Adaptability</span>
+            <span class="skills__tag">Time Management</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects section">
+      <h2 class="section__title">Proyects</h2>
+      <div class="projects__container grid--container">
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/posicionamiento.png" alt="Project 1" title="Positioning and stacking">
+            </div>
+            <div class="projects__info">
+              <h3 class="projects__name"> Proyect 1</h3>
+              <p class="projects__description">
+                Practical positioning and stacking exercise
+              </p>
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  See DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  See Code
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/reto-flexbox.gif" alt="Project 2" title="Reto Flexbox">
+            </div>
+            <div class="projects__info">
+              <h3 class="projects__name">
+                Project 2</h3>
+              <p class="projects__description">
+
+                Flexbox practical exercise.
+              </p>
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">
+                  See DEMO
+                </button>
+                <button class="btn projects__button" type="button">
+                  See Code
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact section">
+      <h2 class="section__title">Contact</h2>
+      <div class="contact__container grid--container">
+        <div class="contact__info">
+          <h3 class=" contact__info-title">Contact information</h3>
+          <p class="contact__info-description">
+            Means to contact me.
+          </p>
+          <address class="contact__info-data">
+            <div class="contact__info-item">
+              <i class="bx bxl-whatsapp"></i>
+              <span class="contact__info-number">
+                <a class="contact__info__item-link" href="whatsapp://send?phone=+573167571905" target="_blank">Send
+                  message via whatsapp</a>
+              </span>
+            </div>
+            <div class="contact__info-item">
+              <i class="bx bx-phone"></i>
+              <span class="contact__info-number">
+                <a class="contact__info__item-link" href="tel:+573167571905">
+                  Call now
+                </a>
+              </span>
+            </div>
+            <div class="contact__info-item">
+              <i class="bx bxs-envelope"></i>
+              <span class="contact__info-mail">
+                <a class="contact__info__item-link" id="mail"
+                  href="mailto:deiviyoanimejiapineda@gmail.com?subject=Hazme%20una%20pagina" target="_blank">
+                  Write to my email
+                </a>
+              </span>
+            </div>
+            <div class="contact__info-item">
+              <i class="bx bx-map"></i>
+              <span class="contact__info-map">
+                <a class="contact__info__item-link" id="map" href="https://maps.app.goo.gl/V3VcU39SreujxcaVA"
+                  target="_blank">Pereira, Colombia. </a>
+              </span>
+            </div>
+          </address>
+        </div>
+        <div class="contact__form">
+          <h3 class="contact__form-title">
+            Send message</h3>
+          <form id="form" class="contact__form-container">
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label">Name</label>
+              <input type="text" id="name" name="name" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="email" class="contact__form-label">E-mail</label>
+              <input type="email" id="email" name="email" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="subject" class="contact__form-label">Subject</label>
+              <input type="text" id="subject" name="subject" class="contact__form-input" />
+            </div>
+
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label">Message</label>
+              <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
+            </div>
+            <dialog id="modal">
+
+              Form submitted successfully!
+              <button type="reset" id="btn_close-modal">Close</button>
+            </dialog>
+
+            <button type="submit" class="btn contact__form-button">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">Deivi Yoani Mejia Pineda</h3>
+        <p class="footer__description">
+          As a committed web developer, I focus on creating efficient, experience-focused applications.
+          of the user and optimized for excellent performance. I value the quality of the code, the intuitive design and
+          constant collaboration, always keeping up to date with the latest technologies to offer solutions
+          innovative.
+        </p>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Social networks</h3>
+
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.facebook.com/deibiymp" target="_blank"
+              rel="noreferrer nofollow"><i class="bx bxl-facebook"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="https://www.instagram.com/deibimejia" target="_blank"
+              rel="noreferrer nofollow"><i class="bx bxl-instagram"></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link"
+              href="https://www.linkedin.com/in/deivi-yoani-mejia-pineda-708730332?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BEvBNZRKvSSia6jfmE2qduQ%3D%3D"" target="
+              _blank" rel="noreferrer nofollow"><i class="bx bxl-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer__copy"></p>
+  </footer>
+
+</body>
+
+</html>
