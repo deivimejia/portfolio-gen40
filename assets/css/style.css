@@ -740,6 +740,7 @@ html {
 			margin: 0 auto;
 
 			.contact__form-container {
+				position: relative;
 				
 				.contact__form-group {
 					margin-bottom: var(--mr-4);
@@ -765,16 +766,20 @@ html {
 				}
 				.container__btn-submit{
 					flex-wrap: wrap;
+					
+					
 				}
 				#modal {
 					bottom: 0px;
 					width: 100%;
+					height: 20vh;
 					background-color: var(--bg-color-buttons);
 					border-radius: 10px;
 					z-index: var(--z-fixed);
 					button {
 						border-radius: 10px;
 					}
+					
 				}
 			}
 		}
